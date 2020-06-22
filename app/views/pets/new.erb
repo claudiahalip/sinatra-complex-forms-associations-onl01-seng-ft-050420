@@ -12,7 +12,7 @@
 
   <h3>Existing Owner</h3>
   <% @owners.each do |o| %>
-    <input type="radio" name="pet[owner_ids][]" id="<%= o.id %>" value="<%= o.id %>"><%= o.name %></input><br>
+    <input type="radio" name="pet[owner_id]" id="<%= o.id %>" value="<%= o.id %>"><%= o.name %></input><br>
   <% end %>
   <br>
   
